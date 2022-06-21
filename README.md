@@ -35,5 +35,5 @@ The analysis of the election show that:
 - The county with the largest turnout was Denver.
 
 ## Election Audit Summary
-Due to the scripts ability for pull out both candidates and counties it can be used for other similar data sets elsewhere in the state or country.  Options for modifying would depend on how elections are handled. This would include if the option for multiple winners were allowed, or if the winning candidate would need to received greater than 50% of the vote and ranked choice voting was allowed. 
+Due to the scripts ability for pull out both candidates and counties it can be used for other similar data sets elsewhere in the state or country.  Options for modifying would depend on how elections are handled. This would include if the option for multiple winners were allowed, or if the winning candidate would need to received greater than 50% of the vote and ranked choice voting was allowed. This script also only assumes that there is one office being elected, you could modify this code for multiple offices if there was an additional data column in the file for office you could run and FOR loop to return the office and calculate results for each office.
 
